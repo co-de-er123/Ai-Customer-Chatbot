@@ -20,15 +20,15 @@ This project is a full-stack AI-powered customer service chatbot that uses senti
 ## 📁 Project Structure
 ```
 .
-├── client             # Frontend (React)
+├── client             
 │   └── src
-│       └── App.js     # Chat UI
+│       └── App.js     
 │       └── App.css
-├── server             # Backend (Node/Express)
+├── server             
 │   └── routes
-│       └── chat.js    # Chat logic + sentiment & CRM
+│       └── chat.js    
 │       └── sentiment.js
-│   └── index.js       # Server entry point
+│   └── index.js       
 ├── docker-compose.yml
 ├── Dockerfile.client
 ├── Dockerfile.server
